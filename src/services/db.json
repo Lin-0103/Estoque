@@ -1,0 +1,20 @@
+{
+  "Products": [
+    {
+      "produto": "Produto",
+      "marca": "pd",
+      "prec_comp": "10",
+      "prec_vend": "10",
+      "qnt": "-1",
+      "id": 1
+    },
+    {
+      "produto": "produto 2",
+      "marca": "pd2",
+      "prec_comp": "10",
+      "prec_vend": "10",
+      "qnt": "26",
+      "id": 2
+    }
+  ]
+}

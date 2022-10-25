@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #333
+}
+
+.NavBar {
+    overflow: hidden;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.DropDown {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DropDown-Content {
+    display: none;
+    position: absolute;
+    background-color: var(--bg-color);
+    z-index: 1;
+    padding: 0.5%;
+    opacity: 0.9;
+}
+
+.DropDown:hover .DropDown-Content {
+    display: grid;
+}
+
+.Link,
+#DropButton {
+    text-decoration: none;
+    color: white;
+}
+
+.Link:hover,
+#DropButton:hover {
+    color: blueviolet;
+}
